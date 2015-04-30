@@ -1,12 +1,12 @@
-// Sass utilities
-@import "helpers/variables";
-@import "helpers/functions";
-@import "helpers/mixins";
-@import "helpers/placeholders";
-@import "helpers/classes";
-
 // Vendors and external stylesheets
 @import "vendors/include-media";
+
+// Sass utilities
+@import "utils/variables";
+@import "utils/functions";
+@import "utils/mixins";
+@import "utils/placeholders";
+@import "utils/classes";
 
 // Base stuff
 @import "base/normalize";
@@ -25,3 +25,6 @@
 
 // Themes
 @import "themes/theme";
+
+// Extra
+@import "shame/shame";
