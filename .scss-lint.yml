@@ -1,0 +1,21 @@
+# SCSSLint
+# https://github.com/brigade/scss-lint
+#
+# default options:
+# https://github.com/brigade/scss-lint/blob/master/config/default.yml
+
+exclude:
+  - 'client/stylesheets/vendors/**'
+  - 'client/stylesheets/base/_normalize.scss'
+
+linters:
+
+  Indentation:
+    character: tab
+    width: 1
+
+  ElsePlacement:
+    style: new_line
+
+  PropertySortOrder:
+    enabled: false
