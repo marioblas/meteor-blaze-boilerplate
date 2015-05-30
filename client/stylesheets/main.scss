@@ -1,6 +1,7 @@
 @charset 'utf-8';
 
 // Vendors and external stylesheets
+@import 'vendors/normalize';
 @import 'vendors/include-media';
 
 // Sass utilities
@@ -11,7 +12,6 @@
 @import 'utils/classes';
 
 // Base stuff
-@import 'base/normalize';
 @import 'base/typography';
 
 // Layout related stylesheets

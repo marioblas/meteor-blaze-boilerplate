@@ -6,7 +6,6 @@
 
 exclude:
   - 'client/stylesheets/vendors/**'
-  - 'client/stylesheets/base/_normalize.scss'
 
 linters:
 
