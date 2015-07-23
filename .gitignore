@@ -10,9 +10,14 @@ Thumbs.db
 .Spotlight-V100
 .Trashes
 
+# Linux trash folder which might appear on any partition or disk
+.Trash-*
+
 # Meteor
 .meteor/local
 .meteor/meteorite
+# meteorhacks:npm package
+packages
 
 # Sass
 .sass-cache
