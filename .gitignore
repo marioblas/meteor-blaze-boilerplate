@@ -1,3 +1,9 @@
+# Useful .gitignore templates:
+# https://github.com/github/gitignore
+
+# Linux:
+*~
+
 # Folder view configuration files
 .DS_Store
 Desktop.ini
@@ -13,12 +19,9 @@ Thumbs.db
 # Linux trash folder which might appear on any partition or disk
 .Trash-*
 
-# Meteor
-.meteor/local
-.meteor/meteorite
-# meteorhacks:npm package
-packages
-
 # Sass
 .sass-cache
 *.css.map
+
+# Meteor package meteorhacks:npm
+packages
