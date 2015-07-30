@@ -24,4 +24,4 @@ Thumbs.db
 *.css.map
 
 # Meteor package meteorhacks:npm
-packages
+packages/npm-container/.npm

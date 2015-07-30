@@ -2,7 +2,7 @@
 
 A starting point for Meteor applications with a basic folder structure and some files.
 
-## Packages
+## Packages & libs
 
 ##### Development
 - [meteorhacks:npm](https://github.com/meteorhacks/npm)
@@ -37,6 +37,9 @@ A starting point for Meteor applications with a basic folder structure and some 
 │   ├── collections/            # Common collections
 │   ├── helpers/                # Common helpers
 │   └── router.js               # Routes
+│
+├── packages/                   # npm modules defined in packages.json will be automatically added here
+│   └── npm-container/
 │
 ├── private/                    # Private files that you don't want to be accessible from the outside
 │
