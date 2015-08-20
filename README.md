@@ -4,13 +4,17 @@ A starting point for Meteor applications with a basic folder structure and some 
 
 ## Packages & libs
 
+> Insecure and autopublish packages are removed.
+
 ##### Development
 - [meteorhacks:npm](https://github.com/meteorhacks/npm)
 - [fourseven:scss](https://github.com/fourseven/meteor-scss) *(with autoprefixer and sourcemaps)*
-- [include-media](https://github.com/eduardoboucas/include-media)
 
 ##### Routing
 - [iron:router](https://github.com/iron-meteor/iron-router)
+
+##### UI & UX
+- [include-media](https://github.com/eduardoboucas/include-media)
 
 ##### Velocity testing tools
 - [sanjo:jasmine](https://github.com/sanjo/meteor-jasmine)
@@ -55,10 +59,14 @@ A starting point for Meteor applications with a basic folder structure and some 
 │   ├── publications/           # Meteor.publish definitions
 │   └── startup/                # Meteor.startup functions that will run when on server startup
 │
-└── tests/                      # Local test code
-    └── jasmine/
-    	├── client/
-        └── server/
+├── tests/                      # Local test code
+│   └── jasmine/
+│       ├── client/
+│       └── server/
+│
+├── packages.json               # npm modules used by meteorhacks:npm package
+├── scss.json                   # Sass config used by fourseven:scss package
+└── settings.json               # Configuration data to be passed to meteor --settings
 ```
 
 ## License
