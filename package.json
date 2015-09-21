@@ -1,0 +1,8 @@
+{
+  "name": "meteor-boilerplate",
+  "version": "1.0.0",
+  "description": "A starting point for Meteor apps",
+  "scripts": {
+    "start": "meteor --settings settings.json"
+  }
+}

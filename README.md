@@ -69,6 +69,10 @@ A starting point for Meteor applications with a basic folder structure and some 
 └── settings.json               # Configuration data to be passed to meteor --settings
 ```
 
+## Run your app
+
+`npm start` - starts your meteor server with settings.json
+
 ## License
 
 MIT © [marioblas](https://github.com/marioblas)
