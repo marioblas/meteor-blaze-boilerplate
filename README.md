@@ -9,6 +9,7 @@ A starting point for Meteor applications with a basic folder structure and some 
 ##### Development
 - [meteorhacks:npm](https://github.com/meteorhacks/npm)
 - [fourseven:scss](https://github.com/fourseven/meteor-scss) *(with autoprefixer and sourcemaps)*
+- [chalk](https://github.com/chalk/chalk) *(enabled)*
 
 ##### Routing
 - [iron:router](https://github.com/iron-meteor/iron-router)
