@@ -13,7 +13,6 @@ sanjo:jasmine
 velocity:html-reporter@0.9.0-rc.4
 
 
-npm-container
 standard-minifiers
 meteor-base
 mobile-experience
@@ -28,3 +27,6 @@ random
 ejson
 spacebars
 check
+
+
+npm-container
