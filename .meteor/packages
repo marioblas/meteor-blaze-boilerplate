@@ -30,3 +30,4 @@ check
 
 npm-container
 kadira:flow-router
+kadira:blaze-layout
