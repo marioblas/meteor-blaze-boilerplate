@@ -6,9 +6,12 @@ A starting point for Meteor applications with a basic folder structure and some 
 
 > Insecure and autopublish packages are removed.
 
+> Unfortunately no autoprefix plugin is available at this moment...
+> See [this](https://github.com/meteor/meteor/issues/5219)
+
 ##### Development
 - [meteorhacks:npm](https://github.com/meteorhacks/npm)
-- [fourseven:scss](https://github.com/fourseven/meteor-scss) *(with autoprefixer and sourcemaps)*
+- [fourseven:scss](https://github.com/fourseven/meteor-scss) *(with sourcemaps)*
 - [chalk](https://github.com/chalk/chalk) *(enabled)*
 
 ##### Routing
