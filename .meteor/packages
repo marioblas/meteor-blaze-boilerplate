@@ -4,7 +4,6 @@
 # 'meteor add' and 'meteor remove' will edit this file for you,
 # but you can also edit it by hand.
 
-iron:router
 fourseven:scss
 meteorhacks:npm
 
@@ -30,3 +29,4 @@ check
 
 
 npm-container
+kadira:flow-router
