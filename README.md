@@ -15,7 +15,10 @@ A starting point for Meteor applications with a basic folder structure and some 
 - [chalk](https://github.com/chalk/chalk) *(enabled)*
 
 ##### Routing
-- [iron:router](https://github.com/iron-meteor/iron-router)
+- [kadira:flow-router](https://github.com/kadirahq/flow-router)
+
+##### Rendering and Layout Management
+- [kadira:blaze-layout](https://github.com/kadirahq/blaze-layout)
 
 ##### UI & UX
 - [include-media](https://github.com/eduardoboucas/include-media)
