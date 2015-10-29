@@ -9,23 +9,26 @@ A starting point for Meteor applications with a basic folder structure and some 
 > Unfortunately no autoprefix plugin is available at this moment...
 > See [this](https://github.com/meteor/meteor/issues/5219)
 
-##### Development
+### Development
 - [meteorhacks:npm](https://github.com/meteorhacks/npm)
 - [fourseven:scss](https://github.com/fourseven/meteor-scss) *(with sourcemaps)*
 - [chalk](https://github.com/chalk/chalk) *(enabled)*
 
-##### Routing
+### Routing
 - [kadira:flow-router](https://github.com/kadirahq/flow-router)
 
-##### Rendering and Layout Management
+### Rendering and Layout Management
 - [kadira:blaze-layout](https://github.com/kadirahq/blaze-layout)
 
-##### UI & UX
+### UI & UX
 - [include-media](https://github.com/eduardoboucas/include-media)
 
-##### Velocity testing tools
+### Velocity testing tools
 - [sanjo:jasmine](https://github.com/sanjo/meteor-jasmine)
 - [velocity:html-reporter](https://github.com/meteor-velocity/html-reporter/)
+
+### Performance monitoring
+- [meteorhacks:kadira](https://github.com/meteorhacks/kadira)
 
 ## Folder structure
 
@@ -55,6 +58,7 @@ A starting point for Meteor applications with a basic folder structure and some 
 ├── private/                    # Private files that you don't want to be accessible from the outside
 │
 ├── public/                     # Public files like images, fonts, favicons...
+│   ├── favicons/
 │   ├── fonts/
 │   └── images/
 │

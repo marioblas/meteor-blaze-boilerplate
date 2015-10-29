@@ -4,5 +4,9 @@
 	},
 	"<private>": {
 		"<key>": "<value>"
+	},
+	"kadira": {
+		"appId": "<appId>",
+		"appSecret": "<appSecret>"
 	}
 }
