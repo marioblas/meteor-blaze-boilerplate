@@ -42,10 +42,10 @@ A starting point for Meteor applications with a basic folder structure and some 
 │   ├── startup/                # Meteor.statup functions that will run as soon as the DOM is ready
 │   ├── stylesheets/            # Sass files
 │   └── templates/              # Contains all templates
-│       ├── application/        # App layouts
-│       ├── includes/           # Includes like footer, header...
-│       ├── shared/             # Contains loading template, 404...
-│       └── ... 	
+│       ├── authenticated/      # Templates for logged-in users
+│       ├── globals/            # Templates used globally like footer, header, loading template, 404...
+│       ├── layouts/            # App layouts
+│       └── public/             # Public templates 	
 │			
 ├── lib/                        # Common code for client and server
 │   ├── collections/            # Common collections
@@ -75,8 +75,8 @@ A starting point for Meteor applications with a basic folder structure and some 
 │       ├── client/
 │       └── server/
 │
+├── package.json                # Defines project contents and useful scripts
 ├── packages.json               # npm modules used by meteorhacks:npm package
-├── scss.json                   # Sass config used by fourseven:scss package
 └── settings.json               # Configuration data to be passed to meteor --settings
 ```
 
