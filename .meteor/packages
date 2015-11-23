@@ -33,3 +33,5 @@ kadira:flow-router
 kadira:blaze-layout
 meteorhacks:kadira
 ecmascript
+accounts-password
+reactive-var

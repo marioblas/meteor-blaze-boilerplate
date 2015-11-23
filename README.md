@@ -13,6 +13,7 @@ A starting point for Meteor applications with a basic folder structure and some 
 - [meteorhacks:npm](https://github.com/meteorhacks/npm)
 - [fourseven:scss](https://github.com/fourseven/meteor-scss) *(with sourcemaps)*
 - [chalk](https://github.com/chalk/chalk) *(enabled)*
+- [reactive-var](http://docs.meteor.com/#/full/reactivevar_pkg)
 
 ### Routing
 - [kadira:flow-router](https://github.com/kadirahq/flow-router)
@@ -20,12 +21,15 @@ A starting point for Meteor applications with a basic folder structure and some 
 ### Rendering and Layout Management
 - [kadira:blaze-layout](https://github.com/kadirahq/blaze-layout)
 
+### User accounts
+- [accounts-password](http://docs.meteor.com/#/full/accounts_api)
+
 ### UI & UX
 - [include-media](https://github.com/eduardoboucas/include-media)
 
 ### Velocity testing tools
 - [sanjo:jasmine](https://github.com/sanjo/meteor-jasmine)
-- [velocity:html-reporter](https://github.com/meteor-velocity/html-reporter/)
+- [velocity:html-reporter](https://github.com/meteor-velocity/html-reporter)
 
 ### Performance monitoring
 - [meteorhacks:kadira](https://github.com/meteorhacks/kadira)
@@ -50,7 +54,7 @@ A starting point for Meteor applications with a basic folder structure and some 
 ├── lib/                        # Common code for client and server
 │   ├── collections/            # Common collections
 │   ├── helpers/                # Common helpers
-│   └── router.js               # Routes
+│   └── routes/                 # Routes
 │
 ├── packages/                   # npm modules defined in packages.json will be automatically added here
 │   └── npm-container/
