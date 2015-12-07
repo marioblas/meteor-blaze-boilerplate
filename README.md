@@ -81,12 +81,31 @@ A starting point for Meteor applications with a basic folder structure and some 
 │
 ├── package.json                # Defines project contents and useful scripts
 ├── packages.json               # npm modules used by meteorhacks:npm package
-└── settings.json               # Configuration data to be passed to meteor --settings
+└── settings-development.json   # Configuration data to be passed to meteor --settings
 ```
+
+## Settings
+
+Don't push keys in your code, push them in settings file.
+
+- `settings-development.json` should only contain values used for **testing**.
+- `settings-production.json` should only contain values used in **production**.
+
+For security purposes `settings-production.json` is *ignored* to prevent from being stored into version control.
+
+An example of production file with Kadira keys:
+```json
+"kadira": {
+	"appId": "<appId>",
+	"appSecret": "<appSecret>"
+}
+```
+
+> Read [this article](http://joshowens.me/environment-settings-and-security-with-meteor-js) for more info about settings.
 
 ## Run your app
 
-`npm start` - starts your meteor server with settings.json
+`npm start` - starts your meteor server with settings-development.json
 
 ## License
 

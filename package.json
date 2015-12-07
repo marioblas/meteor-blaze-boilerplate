@@ -3,6 +3,6 @@
   "version": "0.1.0",
   "description": "A starting point for Meteor apps",
   "scripts": {
-    "start": "meteor --settings settings.json"
+    "start": "meteor --settings settings-development.json"
   }
 }
