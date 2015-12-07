@@ -1,4 +1,4 @@
-# Meteor boilerplate<img src="http://guide.meteor.com/images/logo.svg" width="40">
+# Meteor boilerplate<img src="https://cloud.githubusercontent.com/assets/3719969/11635449/c7f63236-9d0e-11e5-848c-e9b3c7012768.png" width="40">
 
 A starting point for Meteor applications with a basic folder structure and some files.
 
