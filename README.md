@@ -31,7 +31,8 @@ A starting point for Meteor applications with a basic folder structure and some 
 - [sanjo:jasmine](https://github.com/sanjo/meteor-jasmine)
 - [velocity:html-reporter](https://github.com/meteor-velocity/html-reporter)
 
-### Performance monitoring
+### Debugging & Performance monitoring
+- [kadira:debug](https://github.com/kadirahq/meteor-debug)
 - [meteorhacks:kadira](https://github.com/meteorhacks/kadira)
 
 ## Folder structure
