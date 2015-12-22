@@ -20,6 +20,7 @@ A starting point for Meteor applications with a basic folder structure and some 
 
 ### Rendering and Layout Management
 - [kadira:blaze-layout](https://github.com/kadirahq/blaze-layout)
+- [meteorhacks:fast-render](https://github.com/kadirahq/fast-render)
 
 ### User accounts
 - [accounts-password](http://docs.meteor.com/#/full/accounts_api)

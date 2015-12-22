@@ -36,3 +36,4 @@ ecmascript
 accounts-password
 reactive-var
 kadira:debug
+meteorhacks:fast-render
