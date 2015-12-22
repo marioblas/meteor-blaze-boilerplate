@@ -27,9 +27,8 @@ A starting point for Meteor applications with a basic folder structure and some 
 ### UI & UX
 - [include-media](https://github.com/eduardoboucas/include-media)
 
-### Velocity testing tools
-- [sanjo:jasmine](https://github.com/sanjo/meteor-jasmine)
-- [velocity:html-reporter](https://github.com/meteor-velocity/html-reporter)
+### Testing
+- [anti:gagarin](https://github.com/anticoders/gagarin)
 
 ### Debugging & Performance monitoring
 - [kadira:debug](https://github.com/kadirahq/meteor-debug)
@@ -76,9 +75,7 @@ A starting point for Meteor applications with a basic folder structure and some 
 │   └── startup/                # Meteor.startup functions that will run when on server startup
 │
 ├── tests/                      # Local test code
-│   └── jasmine/
-│       ├── client/
-│       └── server/
+│   └── gagarin/
 │
 ├── package.json                # Defines project contents and useful scripts
 ├── packages.json               # npm modules used by meteorhacks:npm package

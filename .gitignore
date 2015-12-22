@@ -26,4 +26,7 @@ Thumbs.db
 # Meteor package meteorhacks:npm
 packages/npm-container/.npm
 
+# Gagarin testing framework
+.gagarin
+
 settings-production.json

@@ -8,8 +8,6 @@ fourseven:scss
 meteorhacks:npm
 
 
-sanjo:jasmine
-velocity:html-reporter@0.9.0-rc.4
 
 
 standard-minifiers
@@ -36,3 +34,4 @@ ecmascript
 accounts-password
 reactive-var
 kadira:debug
+anti:gagarin@=0.4.11
