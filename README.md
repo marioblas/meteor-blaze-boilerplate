@@ -97,9 +97,11 @@ For security purposes `settings-production.json` is *ignored* to prevent from be
 
 An example of production file with Kadira keys:
 ```json
-"kadira": {
-	"appId": "<appId>",
-	"appSecret": "<appSecret>"
+{
+	"kadira": {
+		"appId": "<appId>",
+		"appSecret": "<appSecret>"
+	}
 }
 ```
 
