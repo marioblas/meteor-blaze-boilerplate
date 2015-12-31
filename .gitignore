@@ -23,6 +23,10 @@ Thumbs.db
 .sass-cache
 *.css.map
 
+# Node & npm
+node_modules
+npm-debug.log
+
 # Meteor package meteorhacks:npm
 packages/npm-container/.npm
 
