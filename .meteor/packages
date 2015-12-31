@@ -37,3 +37,4 @@ accounts-password
 reactive-var
 kadira:debug
 meteorhacks:fast-render
+arillo:flow-router-helpers

@@ -1,6 +1,7 @@
 accounts-base@1.2.2
 accounts-password@1.1.4
 amplify@1.0.0
+arillo:flow-router-helpers@0.4.7
 autoupdate@1.2.4
 babel-compiler@5.8.24_1
 babel-runtime@0.1.4
@@ -104,3 +105,4 @@ velocity:shim@0.1.0
 velocity:source-map-support@0.3.2_1
 webapp@1.2.3
 webapp-hashing@1.0.5
+zimme:active-route@2.3.2

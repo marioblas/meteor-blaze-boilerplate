@@ -31,6 +31,7 @@ $ npm start
 
 ### Routing
 - [kadira:flow-router](https://github.com/kadirahq/flow-router)
+- [arillo:flow-router-helpers](https://github.com/arillo/meteor-flow-router-helpers)
 
 ### Rendering and Layout Management
 - [kadira:blaze-layout](https://github.com/kadirahq/blaze-layout)
