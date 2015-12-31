@@ -1,7 +1,7 @@
 {
   "name": "meteor-boilerplate",
   "version": "1.0.0",
-  "description": "A starting point for Meteor apps :rocket:",
+  "description": "A starting point for Meteor apps 🚀",
   "scripts": {
     "lint": "eslint .",
     "start": "meteor --settings settings-development.json"
