@@ -1,31 +1,34 @@
+/* global convertImgToBase64URL:true */
+
 /**
  * Convert an image to base64 URL
  *
- * See: http://stackoverflow.com/questions/6150289/how-to-convert-image-into-base64-string-using-javascript
+ * @see http://stackoverflow.com/questions/6150289/how-to-convert-image-into-base64-string-using-javascript
  *
  * @param  {String}   url
  * @param  {Function} callback
  * @param  {String}   [outputFormat=image/png]
  *
  * @example
- *   convertImgToBase64URL('http://bit.ly/18g0VNp', function(base64Img) {
+ *   convertImgToBase64URL('http://bit.ly/18g0VNp', (base64Img) => {
  *     // Base64DataURL
  *   });
  */
-convertImgToBase64URL = function(url, callback, outputFormat) {
-	var img = new Image();
+convertImgToBase64URL = (url, callback, outputFormat) => {
+  const img = new Image();
 
-	img.crossOrigin = 'Anonymous';
-	img.onload = function() {
-		var canvas = document.createElement('CANVAS'),
-			ctx = canvas.getContext('2d'), dataURL;
+  img.crossOrigin = 'Anonymous';
+  img.onload = () => {
+    let canvas = document.createElement('CANVAS');
+    const ctx = canvas.getContext('2d');
+    let dataURL;
 
-		canvas.height = this.height;
-		canvas.width = this.width;
-		ctx.drawImage(this, 0, 0);
-		dataURL = canvas.toDataURL(outputFormat);
-		callback(dataURL);
-		canvas = null;
-	};
-	img.src = url;
+    canvas.height = img.height;
+    canvas.width = img.width;
+    ctx.drawImage(img, 0, 0);
+    dataURL = canvas.toDataURL(outputFormat);
+    callback(dataURL);
+    canvas = null;
+  };
+  img.src = url;
 };
