@@ -2,6 +2,20 @@
 
 A starting point for Meteor applications with a basic folder structure and some files.
 
+## Quick start
+
+```sh
+$ npm install
+$ npm start
+```
+
+## Commands
+
+- `npm start` - start your meteor server with settings-development.json
+- `npm run lint --silent` - lint all javascript files manually
+
+> Note that *--silent* option hides npm errors if the script exits with an error status (non-zero exit code).
+
 ## Packages & libs
 
 > Insecure and autopublish packages are removed.
@@ -52,7 +66,7 @@ A starting point for Meteor applications with a basic folder structure and some 
 │       ├── globals/            # Templates used globally like footer, header, loading template, 404...
 │       ├── layouts/            # App layouts
 │       └── public/             # Public templates 	
-│			
+│
 ├── lib/                        # Common code for client and server
 │   ├── collections/            # Common collections
 │   ├── helpers/                # Common helpers
@@ -98,18 +112,14 @@ For security purposes `settings-production.json` is *ignored* to prevent from be
 An example of production file with Kadira keys:
 ```json
 {
-	"kadira": {
-		"appId": "<appId>",
-		"appSecret": "<appSecret>"
-	}
+  "kadira": {
+      "appId": "<appId>",
+      "appSecret": "<appSecret>"
+  }
 }
 ```
 
 > Read [this article](http://joshowens.me/environment-settings-and-security-with-meteor-js) for more info about settings.
-
-## Run your app
-
-`npm start` - starts your meteor server with settings-development.json
 
 ## License
 
