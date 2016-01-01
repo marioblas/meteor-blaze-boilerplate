@@ -114,13 +114,20 @@ An example of production file with Kadira keys:
 ```json
 {
   "kadira": {
-      "appId": "<appId>",
-      "appSecret": "<appSecret>"
+    "appId": "<appId>",
+    "appSecret": "<appSecret>"
   }
 }
 ```
 
-> Read [this article](http://joshowens.me/environment-settings-and-security-with-meteor-js) for more info about settings.
+> Read [this article](http://joshowens.me/environment-settings-and-security-with-meteor-js) for more info about Meteor settings.
+
+## Recommended coding style
+
+| Language | Style guide | Linter |
+| -------- | ----------- | ------ |
+| Sass | [Sass guidelines](http://sass-guidelin.es/) | [SCSS-Lint](https://github.com/brigade/scss-lint) |
+| JavaScript | [Airbnb](https://github.com/airbnb/javascript) | [ESLint](http://eslint.org) |
 
 ## License
 
