@@ -7,8 +7,10 @@
 # Configuration according to Sass Guidelines (http://sass-guidelin.es/)
 # For SCSS-Lint v0.32.0
 
+scss_files: './client/stylesheets'
+
 exclude:
-  - 'client/stylesheets/vendors/**'
+  - './client/stylesheets/vendors/**'
 
 linters:
 
