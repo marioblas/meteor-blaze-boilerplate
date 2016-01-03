@@ -12,7 +12,6 @@ sanjo:jasmine
 velocity:html-reporter@0.9.0-rc.4
 
 
-standard-minifiers
 meteor-base
 mobile-experience
 mongo
@@ -38,3 +37,4 @@ reactive-var
 kadira:debug
 meteorhacks:fast-render
 arillo:flow-router-helpers
+seba:minifiers-autoprefixer
