@@ -18,14 +18,15 @@ $ npm start
 
 ## Packages & libs
 
-> Insecure and autopublish packages are removed.
+> insecure and autopublish packages are removed.
 
-> Unfortunately no autoprefix plugin is available at this moment...
-> See [this](https://github.com/meteor/meteor/issues/5219)
+> standard-minifiers core package is removed in favor of seba:minifiers-autoprefixer
+> Read [this discussion](https://github.com/meteor/meteor/issues/5219) about minifiers
 
 ### Development
 - [meteorhacks:npm](https://github.com/meteorhacks/npm)
 - [fourseven:scss](https://github.com/fourseven/meteor-scss) *(with sourcemaps)*
+- [seba:minifiers-autoprefixer](https://atmospherejs.com/seba/minifiers-autoprefixer) *standard minifiers + autoprefixer*
 - [chalk](https://github.com/chalk/chalk) *(enabled)*
 - [reactive-var](http://docs.meteor.com/#/full/reactivevar_pkg)
 
@@ -98,6 +99,7 @@ $ npm start
 │
 ├── package.json                # Defines project contents and useful scripts
 ├── packages.json               # npm modules used by meteorhacks:npm package
+├── postcss.json                # Autoprefixer config
 └── settings-development.json   # Configuration data to be passed to meteor --settings
 ```
 
