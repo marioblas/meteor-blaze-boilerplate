@@ -12,21 +12,20 @@ $ npm start
 ## Commands
 
 - `npm start` - start your meteor server with settings-development.json
-- `npm run lint --silent` - lint all javascript files manually
+- `npm run lint -s` - lint all javascript files manually
 
-> Note that *--silent* option hides npm errors if the script exits with an error status (non-zero exit code).
+> Note that *-s* option is a shortcut for *--loglevel=silent* that makes the log output a little tidier and hides npm errors if the script exits with an error status (non-zero exit code).
 
 ## Packages & libs
 
-> insecure and autopublish packages are removed.
+> *insecure* and *autopublish* packages are removed.
 
-> standard-minifiers core package is removed in favor of seba:minifiers-autoprefixer
-> Read [this discussion](https://github.com/meteor/meteor/issues/5219) about minifiers
+> *standard-minifiers* core package is removed in favor of *seba:minifiers-autoprefixer*, read [this discussion](https://github.com/meteor/meteor/issues/5219) about minifiers.
 
 ### Development
 - [meteorhacks:npm](https://github.com/meteorhacks/npm)
 - [fourseven:scss](https://github.com/fourseven/meteor-scss) *(with sourcemaps)*
-- [seba:minifiers-autoprefixer](https://atmospherejs.com/seba/minifiers-autoprefixer) *standard minifiers + autoprefixer*
+- [seba:minifiers-autoprefixer](https://atmospherejs.com/seba/minifiers-autoprefixer) *(standard minifiers + autoprefixer)*
 - [chalk](https://github.com/chalk/chalk) *(enabled)*
 - [reactive-var](http://docs.meteor.com/#/full/reactivevar_pkg)
 
