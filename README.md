@@ -6,56 +6,65 @@
 
 A starting point for Meteor applications with a basic folder structure and some files.
 
-## Quick start
+## Table of contents
+
+- [Quick start](#quick-start)
+- [Commands](#commands)
+- [Packages & libs](#packages--libs)
+- [Folder structure](#folder-structure)
+- [Settings](#settings)
+- [Recommended coding style](#recommended-coding-style)
+
+### Quick start
 
 ```sh
 $ npm install
 $ npm start
 ```
 
-## Commands
+### Commands
 
 - `npm start` - start your meteor server with settings-development.json
 - `npm run lint -s` - lint all javascript files manually
 
 > Note that *-s* option is a shortcut for *--loglevel=silent* that makes the log output a little tidier and hides npm errors if the script exits with an error status (non-zero exit code).
 
-## Packages & libs
+### Packages & libs
 
 > *insecure* and *autopublish* packages are removed.
 
 > *standard-minifiers* core package is removed in favor of *seba:minifiers-autoprefixer*, read [this discussion](https://github.com/meteor/meteor/issues/5219) about minifiers.
 
-### Development
+#### Development
 - [meteorhacks:npm](https://github.com/meteorhacks/npm)
 - [fourseven:scss](https://github.com/fourseven/meteor-scss) *(with sourcemaps)*
 - [seba:minifiers-autoprefixer](https://atmospherejs.com/seba/minifiers-autoprefixer) *(standard minifiers + autoprefixer)*
 - [chalk](https://github.com/chalk/chalk) *(enabled)*
 - [reactive-var](http://docs.meteor.com/#/full/reactivevar_pkg)
 
-### Routing
+#### Routing
 - [kadira:flow-router](https://github.com/kadirahq/flow-router)
 - [arillo:flow-router-helpers](https://github.com/arillo/meteor-flow-router-helpers)
 
-### Rendering and Layout Management
+#### Rendering and Layout Management
 - [kadira:blaze-layout](https://github.com/kadirahq/blaze-layout)
 - [meteorhacks:fast-render](https://github.com/kadirahq/fast-render)
 
-### User accounts
+#### User accounts
 - [accounts-password](http://docs.meteor.com/#/full/accounts_api)
 
-### UI & UX
+#### UI & UX
 - [include-media](https://github.com/eduardoboucas/include-media)
 
-### Velocity testing tools
+#### Velocity testing tools
 - [sanjo:jasmine](https://github.com/sanjo/meteor-jasmine)
 - [velocity:html-reporter](https://github.com/meteor-velocity/html-reporter)
 
-### Debugging & Performance monitoring
+#### Debugging & Performance monitoring
 - [kadira:debug](https://github.com/kadirahq/meteor-debug)
 - [meteorhacks:kadira](https://github.com/meteorhacks/kadira)
 
-## Folder structure
+### Folder structure
 
 ```
 .
@@ -106,7 +115,7 @@ $ npm start
 └── settings-development.json   # Configuration data to be passed to meteor --settings
 ```
 
-## Settings
+### Settings
 
 Don't push keys in your code, push them in settings file.
 
@@ -127,7 +136,7 @@ An example of production file with Kadira keys:
 
 > Read [this article](http://joshowens.me/environment-settings-and-security-with-meteor-js) for more info about Meteor settings.
 
-## Recommended coding style
+### Recommended coding style
 
 | Language | Style guide | Linter |
 | -------- | ----------- | ------ |
