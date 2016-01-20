@@ -51,6 +51,9 @@ $ npm start
 - [kadira:blaze-layout](https://github.com/kadirahq/blaze-layout)
 - [meteorhacks:fast-render](https://github.com/kadirahq/fast-render)
 
+#### Collections
+- [aldeed:collection2](https://github.com/aldeed/meteor-collection2/) *(also includes [aldeed:simple-schema](https://github.com/aldeed/meteor-simple-schema))*
+
 #### User accounts
 - [accounts-password](http://docs.meteor.com/#/full/accounts_api)
 
