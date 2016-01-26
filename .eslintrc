@@ -6,8 +6,8 @@
     "_": true,
     "Session": true,
     "Template": true,
-		"check": true,
-		"chalk": true,
+    "check": true,
+    "chalk": true,
     "FlowRouter": true,
     "BlazeLayout": true,
   }
