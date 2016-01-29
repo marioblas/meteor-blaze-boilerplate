@@ -19,7 +19,7 @@ A starting point for Meteor applications with a basic folder structure and some 
 
 ```sh
 $ npm install
-$ npm start
+$ meteor
 ```
 
 ### Commands
@@ -27,6 +27,8 @@ $ npm start
 - `npm start` - start your meteor server with settings-development.json
 - `npm run lint -s` - lint all javascript files
 - `npm run lint:fix -s` - lint all javascript files and autofix problems
+
+> Important: don't use `npm start` at this moment because of performance issues, read [this discussion](https://github.com/meteor/meteor/issues/4314).
 
 > Note that *-s* option is a shortcut for *--loglevel=silent* that makes the log output a little tidier and hides npm errors if the script exits with an error status (non-zero exit code).
 
