@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A starting point for Meteor apps 🚀",
   "scripts": {
-    "lint": "eslint .",
+    "lint": "eslint ./client ./lib ./server --ext .js",
     "lint:fix": "npm run lint -- --fix",
     "start": "meteor --settings settings-development.json"
   },
