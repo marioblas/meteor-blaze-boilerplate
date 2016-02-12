@@ -1,8 +1,8 @@
-# Meteor boilerplate<img src="https://cloud.githubusercontent.com/assets/3719969/11635449/c7f63236-9d0e-11e5-848c-e9b3c7012768.png" width="40">
+# Meteor blaze boilerplate<img src="https://cloud.githubusercontent.com/assets/3719969/11635449/c7f63236-9d0e-11e5-848c-e9b3c7012768.png" width="40">
 
 [![MIT License](https://img.shields.io/npm/l/ghooks.svg?style=flat-square)](http://opensource.org/licenses/MIT)
-[![Dependency Status](https://david-dm.org/marioblas/meteor-boilerplate.svg?style=flat-square)](https://david-dm.org/marioblas/meteor-boilerplate)
-[![devDependency Status](https://david-dm.org/marioblas/meteor-boilerplate/dev-status.svg?style=flat-square)](https://david-dm.org/marioblas/meteor-boilerplate#info=devDependencies)
+[![Dependency Status](https://david-dm.org/marioblas/meteor-blaze-boilerplate.svg?style=flat-square)](https://david-dm.org/marioblas/meteor-blaze-boilerplate)
+[![devDependency Status](https://david-dm.org/marioblas/meteor-blaze-boilerplate/dev-status.svg?style=flat-square)](https://david-dm.org/marioblas/meteor-blaze-boilerplate#info=devDependencies)
 
 A starting point for Meteor applications with a basic folder structure and some files.
 
