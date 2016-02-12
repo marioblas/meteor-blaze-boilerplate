@@ -12,8 +12,8 @@
     "url": "https://github.com/marioblas/meteor-boilerplate"
   },
   "devDependencies": {
-    "eslint": "^1.10.3",
-    "eslint-config-airbnb": "^4.0.0"
+    "eslint": "^2.0.0",
+    "eslint-config-airbnb": "^5.0.0"
   },
   "license": "MIT"
 }
